@@ -34,4 +34,4 @@ Clean-up sheet extension by Priti More, built with AI assistance.
 - After changes: run the site, check the Error Log, and compare Imported/Exported counts.
 
 ## Tested on
-The 20 US - VIDAXL sites and the CH test site 1183374.
+The 20 US - VIDAXL sites and the CH test sites.
