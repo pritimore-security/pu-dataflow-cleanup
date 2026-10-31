@@ -4,8 +4,8 @@ Helper script for the Productsup feed restructure clean-up. It reads a site's
 Dataflow and Data Sources pages and produces an Excel sheet showing which
 attributes are used and which data sources can be paused.
 
-**Credits:** Original attInvestigator script by Kell Huang. Clean-up sheet
-extension by Priti More, built with AI assistance.
+**Credits:** Based on the original attInvestigator script by Kell Huang.
+Clean-up sheet extension by Priti More, built with AI assistance.
 
 ## What it outputs
 - **all_attrs_inter_export:** Kell's original Import → Intermediate → Export view
@@ -15,7 +15,7 @@ extension by Priti More, built with AI assistance.
 
 ## Setup
 1. Install Python and the `openpyxl` package: `py -m pip install openpyxl`
-2. Put `attInvestigator.py` in a folder, e.g. `C:\dataflowcleanup`
+2. Put `dataflowcleanup.py` in a folder, e.g. `C:\dataflowcleanup`
 
 ## How to use
 1. In PU, open the site's Dataflow, press F12 → Inspect → find `<tbody>` (1 of 3) → right-click → Copy element. Save it as `<sitename>.txt` in the folder.
@@ -23,7 +23,7 @@ extension by Priti More, built with AI assistance.
 3. Run:
    ```
    cd C:\dataflowcleanup
-   py attInvestigator.py
+   py dataflowcleanup.py
    ```
 4. Pick the number of your site file. The Excel output is saved in the folder.
 
